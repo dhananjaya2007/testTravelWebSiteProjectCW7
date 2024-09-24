@@ -10,6 +10,7 @@ class TestLogin:
     # Test Case 1 ( Registering the user)
     def test_register_new_user(self, driver, username_password):
         #my second commit change
+        #my third commit change
         index_page = IndexPage(driver)
 
         index_page.navigate_to(TEST_SITE_URL)
